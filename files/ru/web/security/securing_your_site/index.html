@@ -12,18 +12,18 @@ translation_of: Web/Security/Securing_your_site
 ---
 <p>{{ draft() }}</p>
 
-<p>There are a number of things you can do to help secure your site. This article offers an assortment of suggestions, as well as links to other articles providing more useful information.</p>
+<p>Есть ряд вещей, которые вы можете сделать, чтобы защитить свой сайт.  Эта статья предлагает ряд предложений, а также ссылки на другие статьи, содержащие более полезную информацию.</p>
 
-<div class="note"><strong>Note:</strong> This article is a work in progress, and is neither complete nor does following its suggestions guarantee your site will be fully secure.</div>
+<div class="note"><strong>Note:</strong> Эта статья находится в стадии разработки и не является полной, и выполнение ее рекомендаций не гарантирует полной безопасности вашего сайта.</div>
 
-<h2 id="User_information_security">User information security</h2>
+<h2 id="User_information_security">Безопасность информации пользователя</h2>
 
 <dl>
- <dt><a href="/en/How_to_Turn_Off_Form_Autocompletion" title="en/How to Turn Off Form Autocompletion">How to turn off form autocompletion</a></dt>
- <dd>Form fields support autocompletion in Gecko; that is, their values can be remembered and automatically brought back the next time the user visits your site. For certain types of data, you may wish to disable this feature.</dd>
+ <dt><a href="/en/How_to_Turn_Off_Form_Autocompletion" title="en/How to Turn Off Form Autocompletion">Как отключить автозаполнение формы</a></dt>
+ <dd>Поля формы поддерживают автозаполнение в Gecko;  то есть их значения можно запомнить и автоматически восстановить при следующем посещении сайта пользователем.  Для определенных типов данных вы можете отключить эту функцию.</dd>
  <dt><a href="/en/CSS/Privacy_and_the_:visited_selector" title="en/CSS/Privacy and the :visited selector">Privacy and the :visited selector</a></dt>
  <dd>This article discusses changes made to the <code>getComputedStyle()</code> method that eliminates the ability for malicious sites to figure out the user's browsing history.</dd>
- <dt><a href="https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet">Hash passwords using a secure algorithm</a> (OWASP)</dt>
+ <dt><a href="https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet">Хэшируйте пароли с помощью безопасного алгоритма</a> (OWASP)</dt>
  <dd>Storing passwords in plain text can lead to attackers knowing and leaking the exact password of your site's users, potentially putting the users at risk. The same issues can arise if you use an old or insecure algorithm for hashing (such as md5). You should use a password-specific hashing algorithm (such as Argon2, PBKDF2, scrypt or bcrypt) instead of message digest algorithms (such as md5 and sha). This article showcases best practices to use when storing passwords.</dd>
 </dl>
 
